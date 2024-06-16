@@ -21,13 +21,24 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+                
+              },
+           
+               "src/assets"
+          
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/lib/animate/animate.css",
+              "src/assets/lib/lightbox/css/lightbox.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/style.css"
+             
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -90,7 +101,12 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/lib/animate/animate.css",
+              "src/assets/lib/lightbox/css/lightbox.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/style.css"
             ],
             "scripts": []
           }
